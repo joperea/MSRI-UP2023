@@ -1,0 +1,143 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage[pdftex]{graphicx}
+\usepackage{amsthm}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{amsfonts}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{amssymb}
+\usepackage{tikz-cd}
+\usetikzlibrary{cd}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{mhchem}
+\usepackage{stmaryrd}
+\usepackage{bbold}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{mathtools}
+
+
+\allowdisplaybreaks
+\graphicspath{{./images/}}
+
+\newtheorem{theorem}{Theorem}[section]
+\newcommand{\C}{\mathcal{C}}
+%\newcommand{\O}{\mathcal{O}}
+\newcommand{\D}{\mathcal{D}}
+\newcommand{\T}{\mathcal{T}}
+\newcommand{\Om}{\Omega}
+\newcommand{\Sus}{\Sigma}
+\theoremstyle{definition}
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{corollary}{Corollary}[section]
+\newtheorem{definition}{Definition}[section]
+\newtheorem{construction}{Construction}[section]
+\newtheorem{notation}{Notation}[section]
+\newtheorem{remark}{Remark}[section]
+\newtheorem{example}{Example}[section]
+
+\title{GitHub Information Sheet}
+\author{Sofía Martínez}
+\date{June-July 2023}
+
+\usepackage{blindtext}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+
+\begin{document}
+
+\maketitle
+
+This document has some information about GitHub and how to get started using GitHub.
+It also connects you to information that you might also find useful. 
+
+\subsection*{What is version control?}
+Version control is a systematic way of keeping track of the changes in a text file (or group of files).
+Its main purpose is to aid people when working on projects in groups where for instance, they would have to update code or files periodically. 
+Version control also documents the changes made in the files and a very popular and powerful set of tools. 
+Git is the most common implementation of version control, which we will be using this summer through GitHub.
+
+
+\subsection*{What is Git?}
+Git is the free and open-source distributed version control system that's responsible for everything GitHub-related that happens locally on your computer.
+Rather than have only one single place for the full version history of the software as is common in once-popular version control systems like CVS or Subversion (also known as SVN), in Git, every contributor's working copy of the code is also a repository that can contain the full history of all changes.
+
+\subsection*{What is GitHub?}
+GitHub is an online software development platform that offers a cloud-based Git repository hosting service. %which was developed in 2008. 
+Essentially, it makes it a lot easier for individuals and teams to use Git for version control and collaboration.
+Moreover, it's used for storing, tracking, and collaborating on software projects.
+It makes it easy for people to share code files and collaborate with fellow team members on open-source projects. 
+GitHub also serves as a social networking site where developers can openly network, collaborate, and pitch their work.
+
+
+
+\subsection*{How to make an account?}
+\begin{enumerate}
+\item If you don't have one already, you can create an account here: \url{https://github.com/join}
+\item After following the prompts, establish a secure password you will remember
+\item Next you will be asked to choose your GitHub product: it is probably enough to use GitHub Free this summer. 
+\item Verifying your email address
+\item  Configuring two-factor authentication (if you want)
+\item You  are all set! You can start viewing your GitHub profile and contribution graph 
+\end{enumerate}
+
+\subsection*{How to get GitHub on your machine?}
+If you are interested in getting GitHub on your desktop here are the steps you can take:  \begin{enumerate}
+\item Go to this site (\url{https://desktop.github.com/}) and click ``Download''
+\item In your computer's Downloads folder, double-click the GitHub Desktop zip file
+\item After the file has been unzipped, double-click the GitHub Desktop application file
+\item Once GitHub Desktop is launched, the installation is complete!
+\end{enumerate}
+Depending on what software you are using this \href{https://git-scm.com/book/en/v2/Getting-Started-Installing-Git}{installing guide} might also be helpful.
+
+\subsection*{Quick Start Guide}
+A quick start guide to GitHub is \href{https://docs.github.com/en/get-started/quickstart}{here}.
+In this guide, you will learn about all the basic functions in GitHub such as: 
+\begin{itemize}
+\item Setting up Git
+\item What is a README.md 
+\item Creating a repository, branches, and pull requests
+\item Forking a repository 
+\item What a GitHub flow is
+\end{itemize}
+
+\textcolor{black}{}
+
+\subsection*{Command Cheat Sheet and Other Links}
+Memorizing all the commands for using GitHub is probably not the best use of time during a short summer program.
+In general, the most used ones are below. 
+Keep in mind, that this cheat sheet and the ones linked below are meant to complement the quick start guide above.
+\begin{itemize}
+    \item \texttt{git init}
+(initialize an existing directory as a Git repository)
+\item \texttt{git clone [url]}
+retrieve an entire repository from a hosted location via URL
+\item \texttt{git log}
+(show all commits in the current branch’s history)
+\item \texttt{git merge [alias]/[branch]}
+(merge a remote branch into your current branch to bring it up to date)
+\item \texttt{git push [alias] [branch]}
+(transmit local branch commits to the remote repository branch)
+\item \texttt{git pull}
+(fetch and merge any commits from the tracking remote branch)
+\item \texttt{git stash}
+(save modified and staged changes)
+\end{itemize}
+
+In the links below you will find lists of other common commands: 
+\begin{itemize}
+    \item \url{https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet}
+    \item \url{https://about.gitlab.com/images/press/git-cheat-sheet.pdf}
+\end{itemize}
+\end{document}

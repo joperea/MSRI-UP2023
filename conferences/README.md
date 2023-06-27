@@ -20,12 +20,10 @@ Travel Scholarships(https://www.sacnas.org/conference/research-presentations) - 
 Each application needs a letter of recommendation (provided by onsite director)
 
 
-
-
 ## Modern Math Workshop
 
 SACNAS Pre-conference: Modern Math Workshop 2023
-Portland, Oregon                                              October 25-26, 2023 
+Portland, OR                                              October 25-26, 2023 
 
 https://mathinstitutes.org/diversity/modern-mathematics-workshop 
 
@@ -48,13 +46,25 @@ January 3-6, 2024 (Wednesday - Saturday)
 Conference website: https://www.jointmathematicsmeetings.org/meetings/national/jmm2024/2300_program.html
 
 ## MAA MathFest
-Tampa, Florida 
+Tampa, FL
+
 August 2-5, 2023
+
 Conference website:https://www.maa.org/meetings/mathfest
 
 
 ## NAM Undergraduate MATHFest
 
-Clark Atlanta University
+Clark Atlanta University, Atlanta, GA
+
 September 22-24,2023
+
 Conference website: https://www.nam-math.org/event-5203459 
+
+## Nebraska Conference for Undergraduate Women in Mathematics
+
+January 26- 28, 2024
+
+UNL, Lincoln, NE
+
+Conference website: https://events.unl.edu/2024/01/26/172476/ 

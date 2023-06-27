@@ -47,13 +47,13 @@ January 3-6, 2024 (Wednesday - Saturday)
 
 Conference website: https://www.jointmathematicsmeetings.org/meetings/national/jmm2024/2300_program.html
 
-##MAA MathFest
+## MAA MathFest
 Tampa, Florida 
 August 2-5, 2023
 Conference website:https://www.maa.org/meetings/mathfest
 
 
-##NAM Undergraduate MATHFest
+## NAM Undergraduate MATHFest
 
 Clark Atlanta University
 September 22-24,2023
